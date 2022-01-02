@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero {
@@ -20,6 +21,7 @@ body {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 24px 0;
 }
 
 .hero-secondary-text,
@@ -64,14 +66,38 @@ ul {
     margin: 0;
 }
 
+/*.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}*/
+
 .information-header {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    text-align: center  ;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
 .quote-section {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-inner {
+    max-width: 1000px;
+}
+
+.quote-inner > :nth-child(2) {
+    text-align: right;
 }
 
 .quote {
@@ -92,6 +118,12 @@ button,
 .img-square {
     width: 200px;
     height: 200px;
+    border: 5px solid #3b82f6;
+    border-radius: 15px;
+}
+
+.img-subtext > p {
+    text-align: center;
 }
 
 a {
