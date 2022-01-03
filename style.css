@@ -11,12 +11,14 @@ body {
     flex-direction: column;
     align-items: stretch;
     /*justify-content: stretch;*/
+    padding: 0px 200px;
 }
 
 .footer {
     background-color: #1F2937;
     color: white;
     text-align: center;
+    padding: 30px;
 }
 
 .hero-main-text {
@@ -36,6 +38,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin: 80px 0px;
 }
 
 /*
@@ -49,6 +52,7 @@ ul {
 .header {
     display: flex;
     align-items: center;
+    margin: 15px 0px;
 }
 
 ul {
@@ -85,6 +89,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 90px;
 }
 
 .quote-section {
@@ -92,6 +97,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0px;
 }
 
 .quote-inner {
@@ -113,6 +119,7 @@ button {
     border: 0;
     border-radius: 4px;
     color: white;
+    padding: 1px 20px;
 }
 
 .call-to-action {
@@ -131,6 +138,7 @@ button {
     color: white;
     margin: 100px 0px;
     border-radius: 15px;
+    padding: 20px;
 }
 
 .call-to-action > div > div {
